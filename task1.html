@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Number1</h1>
+    <input type="number1" id="input1">
+    <h1>Number2</h1>
+    <input type="number2" id="input2">
+    <button onclick="check()">Answer</button>
+    <script>
+      function check()
+          {
+            let input1 = document.getElementById("input1").value
+            let input2 = document.getElementById("input2").value
+              if(parseInt(input1) >parseInt(input2)){
+                      console.log("Larger Num is "+input1)
+              }else{
+                console.log("Both num are equl")
+              }
+   
+
+          }
+    </script>  
+    
+</body>
+</html>
